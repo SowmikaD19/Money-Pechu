@@ -1,0 +1,286 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.channels{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 20px;
+position: relative;
+left: 0px;
+
+background: linear-gradient(107.71deg, #FC94A1 32.19%, rgba(81, 188, 251, 0) 125.44%), #FFFFFF;
+}
+
+.texts{
+    position: static;
+    left: 1.54%;
+    right: 1.54%;
+    top: 12.99%;
+bottom: 12.99%;
+
+/* Second Headline */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 46px;
+line-height: 57px;
+/* identical to box height, or 124% */
+
+letter-spacing: 0.2px;
+
+/* first text */
+
+color: #000000;
+}
+
+.channel ul li{
+    position:static;
+    width: 302px;
+    height: 297px;
+    left: 0px;
+    top: 0px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+/* Inside Auto Layout */
+
+    display:inline-block;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 0px;
+    margin-right: 20px;
+}
+
+.big{
+    position: relative;
+left: -2.42%;
+right: 10.42%;
+top: 0%;
+bottom: 0%;
+
+/* Title */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+
+text-align:center;
+letter-spacing: 0.1px;
+
+/* first text */
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 40px;
+}
+.big1{
+    position: relative;
+left: 1.42%;
+right: 10.42%;
+top: 0%;
+bottom: 0%;
+
+/* Title */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+/* identical to box height, or 150% */
+
+text-align:center;
+letter-spacing: 0.1px;
+
+/* first text */
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 30px;
+}
+
+.english{
+    position: static;
+left: 4.59%;
+right: 4.59%;
+top: 27.78%;
+bottom: 27.78%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second text */
+
+color: #5C5C5C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.health{
+    position: static;
+left: 5.26%;
+right: 5.26%;
+top: 27.78%;
+bottom: 27.78%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+/* identical to box height, or 100% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+/* second text */
+
+color: #5C5C5C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 60px;
+}
+
+button{
+    /* button */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 50px;
+
+position: static;
+width: 175px;
+height: 52px;
+left: 50px;
+top: 69px;
+margin-left: 55px;
+margin-top: 10px;
+border: none;
+
+/* primary */
+
+background: #00B6F0;
+/* shadow */
+
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.button{
+    
+position: static;
+left: 13.33%;
+right: 13.33%;
+top: 27.78%;
+bottom: 27.78%;
+
+/* Button */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+border: none;
+/* identical to box height, or 100% */
+
+letter-spacing: 0.2px;
+
+/* light text */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.button a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+}
+@media  screen and (min-width: 1000px) and (max-width:1200px){
+    .channels{
+        width:154%;
+        top:1720px;
+    }
+}
+@media  screen and (min-width: 1300px) and (max-width:1799px){
+    .channels{
+        width:100%;
+        top:1700px;
+    }
+}
+@media  screen and (min-width: 1800px) {
+    .channels{
+        width:100%;
+        top:1570px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .channels{
+        width: 287%;
+        top: 1573px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 900px){
+    .channels{
+        width: 215%;
+        top: 1512px;
+    }
+}

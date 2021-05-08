@@ -1,0 +1,306 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.homemp{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 104px 82px;
+
+position: absolute;
+width: 1450px;
+height: 773px;
+left: 0px;
+top: 119px;
+
+background: linear-gradient(231.55deg, #A0F9A0 -47.22%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+}
+
+.pone{
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 5.24%;
+    bottom: 5.24%;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #112D57;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+}
+
+.smallpara{
+    position: static;
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 30px 10px;
+}
+
+.smallparaone{
+    
+position: static;
+
+
+/* Sub Heading */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+letter-spacing: 0.2px;
+
+/* second text */
+
+color: #5C5C5C;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: flex-start;
+flex-grow: 0;
+margin: -20px 10px;
+}
+
+.button1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 45px;
+    color: #FFFFFF;
+    position: static;
+    width: 150px;
+    height: 52px;
+    background: #00B6F0;
+    box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 13px;
+    border: none;
+
+}
+
+.button2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 44px;
+    position: static;
+    width: 176px;
+    height: 52px;
+    color: #112D57;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    background: #FFFFFF;
+    border: 1px solid #112D57;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 700px 200px;
+    margin-top: -177px;
+}
+
+
+
+#homeimage{
+    
+    display: block;
+    margin-right: -600px;
+    margin-top: -500px;
+    width: 838px;
+    height: 545px;
+    filter: drop-shadow(0px 4px 31px rgba(0, 0, 0, 0.15));
+    text-align: right;
+    float: right;
+    margin-left: 500px;
+}
+
+@media (min-width:1300px)  and (max-width:1700px){
+
+    .homemp{width:100%;
+    }
+    html,head{
+    
+        padding: 0px;
+        margin: 0px;
+        overflow-x: hidden;
+        
+        }
+
+        #homeimage{
+            width:65%;
+        }
+        .button1{
+            align-items: center;
+        }
+        .button2{
+            align-items: center;
+        }
+}
+
+
+@media (min-width:1800px){
+    .homemp{
+
+        width: 100%;
+    
+
+}
+
+#homeimage{
+    width: 55%;
+    margin-left: 868px;
+    margin-top: -550px;
+
+}
+.pone{
+    font-size:70px;
+    margin-left: 3%;
+    line-height: 70px;
+}
+.smallpara{
+    font-size: 25px;
+    margin-left: 3%;
+}
+.smallparaone{
+    font-size: 25px;
+    margin-left: 3%;
+
+}
+.button2{
+    margin-top: -125px;
+    margin-left: 13%;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+.button1{
+    margin-left: 3%;
+    font-size: 15.5px;
+    font-weight: bold;
+}
+
+
+
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .homemp{
+        width:287%;
+        height: 470px;
+    }
+
+    .pone{
+        font-size: 150%;
+        line-height: 40px;
+    }
+    .smallpara{
+        font-size: 70%;
+        margin-left: 0%;
+        margin-top: -5px;
+        
+    } 
+    .smallparaone{
+        font-size: 70%;
+        margin-left: 0%;
+    }
+ 
+    .button1{
+        width:20%;
+        font-size: 70%;
+        padding: 20px 50px;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+    .button2{
+
+        width: 20%;
+        font-size: 70%;
+        padding: 20px 40px;
+        margin-top: -12.5%;
+    }
+
+    #homeimage{
+        width:62%;
+        margin-left: 49%;
+        height:150%;
+        margin-top: -52%;
+    }
+}
+
+
+    @media (min-width: 481px) and (max-width: 900px){
+
+        .homemp{
+            width: 215%;
+            height: 520px;
+        }
+        .pone{
+            font-size: 150%;
+            line-height: 40px;
+        }
+        .smallpara{
+            margin-left: 0%;
+            margin-top: 1%;
+        }
+        .smallparaone{
+            margin-left: 0%;
+        }
+        .button1{
+            margin-left: 0%;
+            margin-top: 5%;
+        }
+        .button2{
+            margin-top: -11%;
+        }
+        #homeimage{
+            width: 51.5%;
+            margin-top: -43%;
+        }
+
+    }
+
+
+
+
+
+
+
+
